@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+	margin: 0;
+	padding: 0;
+    line-height: 1.4;
+    background-color:rgb(201, 192, 112) ;
+}
+.header {
+    background: rgb(31, 27, 27);
+    padding: 20px;  
+    color: rgb(245, 241, 204);
+    font-size: 20px;
+    font-family: "Potta One", cursive;
+    box-shadow: 4px 4px 4px black;
+}
+.header img {
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 4px 4px black;
+}
+.header-title {
+    margin-top: 0;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-shadow: 4px 4px 4px black; ;
+    background-image:url(image_1/friseperou.jpg),
+                     linear-gradient(to right, transparent, rgb(216, 146, 55));
+}
+.header-nav {
+    float: right;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(190, 28, 28);    
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	border: 5px rgb(201, 192, 112);
+	border-radius: 5px / 5px;
+	box-shadow: 4px 4px 4px black;
+}
+.header-nav a {
+    float: left;
+    width: 25%;
+    color: inherit;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255, 0) ;
+    box-shadow: 0px 0px 4px black;
+}
+.header-nav a:hover {
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255, 0.2) ;
+}
+/*.imagesousmenu{
+    background-attachment: fixed;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255, 0.2),rgb(255, 255, 255, 0));
+}*/
+.littletext {
+    font-size: 15px;
+    color: rgb(202, 53, 53);
+    font-weight: bold;
+    text-align: center;
+}
+.mainer {
+    display: block;
+    background: rgb(201, 192, 112);
+    padding: 20px;
+    font-family: "Potta One", cursive;
+}
+.mainer-title {
+    margin: 0px;
+    text-decoration: underline;
+    color: rgb(190, 28, 28);
+}
+.mainer a {
+    text-decoration: none;
+    color: rgb(94, 56, 56);
+    font-size: 16px;
+    font-style: italic;
+}
+.mainer p {
+    text-align: justify;
+    font-size: "Potta One", cursive; 
+}
+.mainer ul {
+    color: rgb(94, 56, 56);
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Potta One", cursive;
+}
+.formu fieldset {
+    border: none;
+}
+.formu textarea {
+    color: rgb(31, 27, 27);
+    background-color: rgb(240, 238, 223);
+    border: currentColor;
+    margin-top: 10px;
+}
+.formu input {
+    color: rgb(31, 27, 27);
+    background-color: rgb(240, 238, 223);
+    border: currentColor;
+}
+.align-right {
+    width: 200px;
+    float: right;
+    margin-left: 10px;
+    box-shadow: 4px 4px 4px black;
+}
+.align-left {
+    width: 200px;
+    float: left;
+    margin-right: 10px; 
+    margin-bottom: 5px;   
+    box-shadow: 4px 4px 4px black;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    display: block;
+    background: rgb(31, 27, 27);
+    padding: 20px;  
+    color: rgb(245, 241, 204);
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: "Potta One", cursive;
+}
+.footer iframe {
+    width: 400px;
+    height: 350px;
+    border: 10px outset rgb(190, 28, 28)!important;
+}
+.footer a { 
+    position: relative;
+    padding: 10px 20px;
+    background-color: rgb(190, 28, 28);
+    box-shadow: 0px 0px 4px black;
+    float: right;
+    margin-top: 303px;
+}
+.footer-nav {
+    color: inherit;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+    background-color:  rgba(199, 70, 70, 0.9);
+}
+.equipe {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    box-shadow: 4px 4px 4px black;
+}
